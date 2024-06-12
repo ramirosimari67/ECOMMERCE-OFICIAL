@@ -47,14 +47,14 @@ function ready() {
 }
 
 // Función para el botón de compra
-function buyButtonClicked() {
-    alert('Tu pedido está hecho');
-    var cartContent = document.getElementsByClassName('cart-content')[0];
-    while (cartContent.hasChildNodes()) {
-        cartContent.removeChild(cartContent.firstChild);
-    }
-    updateTotal();
-}
+//function buyButtonClicked() {
+    //alert('Tu pedido está hecho');
+    //var cartContent = document.getElementsByClassName('cart-content')[0];
+    //while (cartContent.hasChildNodes()) {
+        //cartContent.removeChild(cartContent.firstChild);
+    //}
+    //updateTotal();
+//}
 
 // Remover items del carrito
 function removeCartItem(event) {
