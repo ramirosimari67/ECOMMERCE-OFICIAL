@@ -10,6 +10,8 @@
 
     <!--========== BOX ICONS ============-->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <!--========== FONT AWESOME ============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 </head>
 
 <body>
@@ -40,15 +42,35 @@
         </nav>
         <div class="header-right">
             <div class="box-icons">
-                <i class='bx bx-user-circle' ></i>
-                <i class='bx bx-cart-alt'></i>
+                <i class='bx bx-user-circle'></i>
+                <i class='bx bx-cart-alt' id="cart-icon"></i>
             </div>
             <div class="hamburger">
                 <div class="line"></div>
                 <div class="line"></div>
                 <div class="line"></div>
             </div>
+
+            <!--========== CARRITO ==========-->
+            <div class="cart" id="cart">
+                <!--========== CONTENIDO DEL CARRITO ==========-->
+                <h2 class="cart-title">Tu Carrito</h2>
+                <!--========== CONTENIDO ==========-->
+                <div class="cart-content">
+
+                </div>
+                <!--========== TOTAL ==========-->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <!--========== BOTON DE COMPRAR ==========-->
+                <button type="button" class="btn-buy">Comprar Ahora</button>
+                <!--========== BOTON DE CERRAR ==========-->
+                <i class="bx bx-x" id="cart-close"></i>
+            </div>
         </div>
+
     </header>
 
     <!--========== IMAGEN ==========-->
@@ -68,11 +90,11 @@
                 <img src="../static/images/gabinete.jpg" alt="">
             </div>
             <div class="product-info">
-                <h4>Gabinete Gamer</h4>
-                <h4>$100</h4>
+                <h4 class="product-title">Gabinete Gamer</h4>
+                <h4 class="product-price">$100</h4>
             </div>
             <div class="btn">
-                <button type="button">Comprar Ahora</button>
+                <button type="button" class="add-cart">Comprar Ahora</button>
             </div>
         </div>
 
@@ -82,11 +104,11 @@
                 <img src="../static/images/Glorious Gaming GMMK 2.jpg" alt="">
             </div>
             <div class="product-info">
-                <h4>Teclado Gamer</h4>
-                <h4>$120</h4>
+                <h4 class="product-title">Teclado Gamer</h4>
+                <h4 class="product-price">$120</h4>
             </div>
             <div class="btn">
-                <button type="button">Comprar Ahora</button>
+                <button type="button" class="add-cart">Comprar Ahora</button>
             </div>
         </div>
 
@@ -96,11 +118,11 @@
                 <img src="../static/images/mousegamer.jpg" alt="">
             </div>
             <div class="product-info">
-                <h4>Mouse Gamer</h4>
-                <h4>$50</h4>
+                <h4 class="product-title">Mouse Gamer</h4>
+                <h4 class="product-price">$50</h4>
             </div>
             <div class="btn">
-                <button type="button">Comprar Ahora</button>
+                <button type="button" class="add-cart">Comprar Ahora</button>
             </div>
         </div>
 
@@ -110,11 +132,11 @@
                 <img src="../static/images/ryzen5600g.png" alt="">
             </div>
             <div class="product-info">
-                <h4>Ryzen 5600G</h4>
-                <h4>$160</h4>
+                <h4 class="product-title">Ryzen 5600G</h4>
+                <h4 class="product-price">$160</h4>
             </div>
             <div class="btn">
-                <button type="button">Comprar Ahora</button>
+                <button type="button" class="add-cart">Comprar Ahora</button>
             </div>
         </div>
 
@@ -123,7 +145,17 @@
     <!--========== ESPACIADOR ==========-->
     <div class="spacer"></div>
 
+    <!--========== REDES SOCIALES ==========-->
     <h2 class="section-socialmedia">Redes Sociales</h2>
+
+    <div class="wrapper">
+        <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" class="icon"><i class="fa-brands fa-tiktok"></i></a>
+    </div>
+
+    <!--========== ESPACIADOR ==========-->
+    <div class="spacer"></div>
 
      <!--========== LINKS JS ==========-->
     <script src="../static/js/main.js"></script>
