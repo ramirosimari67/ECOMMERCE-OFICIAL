@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROCESADORES - ECommerce</title>
+
+    <!--========== ESTILOS ============-->
+    <link rel="stylesheet" href="../static/css/procesadores.css">
+
+    <!--========== BOX ICONS ============-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--========== HEADER ==========-->
+    <header>
+        <div class="logo"><span>E</span>Commerce</div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="../templates/index.html" class="active">Inicio</a>
+                </li>
+                <li>
+                    <a href="../templates/procesadores.html">Procesadores</a>
+                </li>
+                <li>
+                    <a href="">Perifericos</a>
+                </li>
+                <li>
+                    <a href="">Monitores</a>
+                </li>
+                <li>
+                    <a href="">Gabinetes</a>
+                </li>
+                <li>
+                    <a href="">Tecnologia</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header-right">
+            <div class="box-icons">
+                <i class='bx bx-user-circle' ></i>
+                <i class='bx bx-cart-alt'></i>
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </header>
+
+    <!--========== MENU TOGGLE ==========-->
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+            hamburger.onclick = function() {
+            const navBar = document.querySelector(".nav-bar");
+                navBar.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
