@@ -130,11 +130,11 @@ function updateTotal() {
 }
 
 // Funcionalidad del botón de compra
-function buyButtonClicked() {
-    alert('Gracias por tu compra');
-    var cartContent = document.getElementsByClassName('cart-content')[0];
-    while (cartContent.hasChildNodes()) {
-        cartContent.removeChild(cartContent.firstChild);
-    }
-    updateTotal();
-}
+//function buyButtonClicked() {
+    //alert('Gracias por tu compra');
+    //var cartContent = document.getElementsByClassName('cart-content')[0];
+    //while (cartContent.hasChildNodes()) {
+        //cartContent.removeChild(cartContent.firstChild);
+    //}
+    //updateTotal();
+//}
