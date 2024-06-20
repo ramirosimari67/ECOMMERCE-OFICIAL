@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONITORES - ECommerce</title>
+
+    <!--========== ESTILOS ============-->
+    <link rel="stylesheet" href="../static/css/monitores.css">
+
+    <!--========== BOX ICONS ============-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--========== HEADER ==========-->
+    <header>
+        <div class="logo"><span>E</span>Commerce</div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="/index.html" class="active">Inicio</a>
+                </li>
+                <li>
+                    <a href="../templates/procesadores.html">Procesadores</a>
+                </li>
+                <li>
+                    <a href="../templates/perifericos.html">Perifericos</a>
+                </li>
+                <li>
+                    <a href="../templates/monitores.html">Monitores</a>
+                </li>
+                <li>
+                    <a href="../templates/gabinetes.html">Gabinetes</a>
+                </li>
+                <li>
+                    <a href="../templates/tecnologia.html">Tecnologia</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header-right">
+            <div class="box-icons">
+                <i class='bx bx-user-circle'></i>
+                <i class='bx bx-cart-alt' id="cart-icon"></i>
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+
+            <!--========== CARRITO ==========-->
+            <div class="cart" id="cart">
+                <!--========== CONTENIDO DEL CARRITO ==========-->
+                <h2 class="cart-title">Tu Carrito</h2>
+                <!--========== CONTENIDO ==========-->
+                <div class="cart-content">
+
+                </div>
+                <!--========== TOTAL ==========-->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <!--========== BOTON DE COMPRAR ==========-->
+                <button type="button" class="btn-buy">Comprar Ahora</button>
+                <!--========== BOTON DE CERRAR ==========-->
+                <i class="bx bx-x" id="cart-close"></i>
+            </div>
+        </div>
+    </header>
+
+     <!--========== LINKS JS ==========-->
+     <script src="../static/js/main.js"></script>
+     
+</body>
+</html>

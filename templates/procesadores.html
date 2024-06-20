@@ -40,24 +40,38 @@
         </nav>
         <div class="header-right">
             <div class="box-icons">
-                <i class='bx bx-user-circle' ></i>
-                <i class='bx bx-cart-alt'></i>
+                <i class='bx bx-user-circle'></i>
+                <i class='bx bx-cart-alt' id="cart-icon"></i>
             </div>
             <div class="hamburger">
                 <div class="line"></div>
                 <div class="line"></div>
                 <div class="line"></div>
             </div>
+
+            <!--========== CARRITO ==========-->
+            <div class="cart" id="cart">
+                <!--========== CONTENIDO DEL CARRITO ==========-->
+                <h2 class="cart-title">Tu Carrito</h2>
+                <!--========== CONTENIDO ==========-->
+                <div class="cart-content">
+
+                </div>
+                <!--========== TOTAL ==========-->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <!--========== BOTON DE COMPRAR ==========-->
+                <button type="button" class="btn-buy">Comprar Ahora</button>
+                <!--========== BOTON DE CERRAR ==========-->
+                <i class="bx bx-x" id="cart-close"></i>
+            </div>
         </div>
     </header>
 
-    <!--========== MENU TOGGLE ==========-->
-    <script>
-        const hamburger = document.querySelector(".hamburger");
-            hamburger.onclick = function() {
-            const navBar = document.querySelector(".nav-bar");
-                navBar.classList.toggle("active");
-        }
-    </script>
+     <!--========== LINKS JS ==========-->
+     <script src="../static/js/main.js"></script>
+     
 </body>
 </html>

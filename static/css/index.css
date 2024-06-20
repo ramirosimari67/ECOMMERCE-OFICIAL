@@ -249,9 +249,9 @@ header{
 /* ============ PRODUCTOS EN OFERTA ============ */
 
 .container {
-    width: 90%; /* Ajustar el ancho del contenedor para dejar márgenes a los costados */
-    max-width: 1400px; /* Máximo ancho del contenedor */
-    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    width: 90%;
+    max-width: 1400px; 
+    margin: 0 auto; 
     padding-top: 15px;
     display: flex;
     flex-wrap: wrap;
@@ -259,7 +259,7 @@ header{
 }
 
 .container .card {
-    width: 250px; /* Aumentar el ancho de las tarjetas */
+    width: 250px; 
     overflow: hidden;
     text-align: center; 
     border: 2px solid var(--main-color);
@@ -268,7 +268,7 @@ header{
 }
 
 .container .card .product-img {
-    width: 210px; /* Ajustar el ancho de la imagen */
+    width: 210px; 
     margin: 20px auto;
 }
 
@@ -342,7 +342,7 @@ header{
     width: 5.625rem;
     height: 5.625rem;
     border-radius: 14px;
-    /* background-color: hsla(209 20% 70% / 20%); */ /* For dark theme */
+    
     background-color: #070707;
     display: flex;
     justify-content: center;
