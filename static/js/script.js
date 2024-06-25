@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         }
 
-        fetch(' https://a88e-2800-810-42f-8799-585c-8da2-d433-ca12.ngrok-free.app/create-checkout-session', {
+        fetch(' https://32ca-2800-810-42f-8799-51e4-dcb-b089-e943.ngrok-free.app/create-checkout-session', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
