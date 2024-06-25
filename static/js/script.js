@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         }
 
-        fetch('http://192.168.0.12:4242/create-checkout-session', {
+        fetch(' https://a88e-2800-810-42f-8799-585c-8da2-d433-ca12.ngrok-free.app/create-checkout-session', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
