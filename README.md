@@ -2,7 +2,7 @@
 BIENVENIDOS
 ------------------------------------------
 
-Este es un repositorio destinado a un proyecto de la materia "Desarrollo de Software" de la facultad de Almirante Brown.
+Este es un repositorio destinado a un proyecto de la materia "Desarrollo de Software" de la Universidad Nacional Guillermo Brown.
 
 Este proyecto se trata de desarrollar un ECommerce de tecnología, se puede ingresar a él a través de este enlace: https://ecommerce-oficial.vercel.app/.
 
