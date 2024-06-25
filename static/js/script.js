@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         }
 
-        fetch('http://localhost:4242/create-checkout-session', {
+        fetch('http://192.168.0.12:4242/create-checkout-session', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
