@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
             items.push({
                 title: titulo,
                 quantity: cantidad,
-                price: precio * 100 // Asegúrate de convertir a centavos
+                price: precio * 100 
             });
         }
 

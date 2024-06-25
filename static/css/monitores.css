@@ -22,7 +22,8 @@ header{
     height: 80px;
     background: var(--bg-color);
     display: flex;
-    position: fixed;
+    position: relative;
+    z-index: 1;
     align-items: center;
     justify-content: space-between;
     padding: 0 100px;
@@ -228,6 +229,91 @@ header{
     font-size: 2rem;
     color: var(--text-color);
     cursor: pointer;
+}
+
+/* ============ TITULO DE PRODUCTO ============ */
+
+.section-title {
+    color: var(--text-color);
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid var(--main-color);
+    border-radius: 5px;
+    width: 210px;
+    letter-spacing: 1px;
+}
+
+/* ============ PRODUCTOS ============ */
+
+.container {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px; 
+    justify-content: center;
+}
+
+.container .card{
+    width: 250px;
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid var(--main-color);
+    border-radius: 15px;
+    box-shadow: 0 0 7px var(--main-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container .card .product-img{
+    width: 210px;
+    margin: 20px auto;
+}
+
+.container .card .product-img img{
+    width: 100%;
+}
+
+.container .card .product-img img:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    border-radius: 15px;
+}
+
+.container .card .product-info{
+    font-size: 18px;
+    padding: 0 25px;
+    margin-bottom: 10px;
+}
+
+.container .card h4{
+    color: var(--text-color);
+    margin: 10px 0;
+    word-wrap: break-word; 
+}
+
+.container .card .btn{
+    width: 100%;
+}
+
+.container .card .btn button{
+    width: 100%;
+    padding: 10px;
+    background-color: var(--main-color);
+    border: 1px solid gray;
+    outline: none;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 0 0 15px 15px;
+    font-weight: bold;
 }
 
 /* ============ RESPONSIVE ============ */
